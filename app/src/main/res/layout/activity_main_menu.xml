@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="247dp"
+        android:layout_height="79dp"
+        android:layout_centerInParent="true"
+        android:text="Старт викторины" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/startButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="175dp"
+        android:text="Кто хочет стать миллионером!"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="557dp"
+        android:text="Cosmo-Quiz"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="691dp"
+        android:layout_marginEnd="5dp"
+        android:text="Выход"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startButton" />
+
+</RelativeLayout>
